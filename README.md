@@ -25,3 +25,10 @@ Instrucciones básicas para levantar el entorno.
 Principales aprendizajes y problemas resueltos.
 
 ## Update
+## Setup
+
+```bash
+git clone https://github.com/juvenalmaster-cmd/devsecops-linux-lab.git
+cd devsecops-linux-lab
+docker build -t devsecops-lab .
+docker run devsecops-lab
