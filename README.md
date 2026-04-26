@@ -1,46 +1,23 @@
-# DevSecOps Lab
+# DevSecOps Linux Lab
 
-## Overview
-Laboratorio práctico en entorno Linux (WSL2) enfocado en DevSecOps.
+## 📌 Overview
+Este proyecto corresponde a un laboratorio práctico en entorno Linux (WSL2), enfocado en la aplicación de principios de DevSecOps.  
+El objetivo es integrar prácticas de seguridad dentro del ciclo de desarrollo, utilizando herramientas reales y entornos controlados.
 
-## Technologies
+---
+
+## ⚙️ Technologies
+
 - Linux (WSL2)
 - Git
 - Docker
 - Python
-- Bandit
+- Bandit (análisis de seguridad)
 
-## Setup
-Instrucciones básicas para levantar el entorno.
+---
 
-## Security Practices
-- Hardening básico
-- Gestión de usuarios y permisos
-- Análisis de código con Bandit
-
-## Tools Used
-- Bandit
-
-## Lessons Learned
-Principales aprendizajes y problemas resueltos.
-
-## Update
-## Setup
-
-git clone https://github.com/juvenalmaster-cmd/devsecops-linux-lab.git
-cd devsecops-linux-lab
-docker build -t devsecops-lab .
-docker run devsecops-lab
-## Security Testing
-
-## Tools Used
-
-- Bandit (Python security analysis)
-- Git (version control)
-- Docker (containerization)
-- Linux (WSL2 environment)
-
-Se realizó análisis de seguridad del código utilizando Bandit, herramienta de análisis estático para Python.
+## 🚀 Setup
 
 ```bash
-bandit -r app/
+git clone https://github.com/juvenalmaster-cmd/devsecops-linux-lab.git
+cd devsecops-linux-lab
