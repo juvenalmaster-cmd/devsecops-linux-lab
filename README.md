@@ -21,3 +21,6 @@ El objetivo es integrar prácticas de seguridad dentro del ciclo de desarrollo, 
 ```bash
 git clone https://github.com/juvenalmaster-cmd/devsecops-linux-lab.git
 cd devsecops-linux-lab
+
+## 🧪 Security Testing
+...
