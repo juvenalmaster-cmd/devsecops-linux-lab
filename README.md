@@ -12,7 +12,7 @@ El objetivo es integrar prácticas de seguridad dentro del ciclo de desarrollo, 
 - Git
 - Docker
 - Python
-- Bandit (análisis de seguridad)
+- Bandit (Se realiza análisis estático de seguridad del código utilizando Bandit
 
 ---
 
@@ -21,7 +21,8 @@ El objetivo es integrar prácticas de seguridad dentro del ciclo de desarrollo, 
 ```bash
 git clone https://github.com/juvenalmaster-cmd/devsecops-linux-lab.git
 cd devsecops-linux-lab
-
+docker build -t devsecops-lab .
+docker run devsecops-lab
 
 bandit -r app/
 
