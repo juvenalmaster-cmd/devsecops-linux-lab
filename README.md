@@ -34,4 +34,7 @@ devsecops-linux-lab/
 
 ## 👨‍💻 Author
 
+Juvenal Muñoz  
+Ingeniero en Informática enfocado en Ciberseguridad y DevSecOps  
+GitHub: https://github.com/juvenalmaster-cmd
 Proyecto desarrollado como parte de proceso de especialización en ciberseguridad y DevSecOps.
