@@ -31,3 +31,7 @@ devsecops-linux-lab/
 ├── security/   # Prácticas y pruebas de seguridad
 ├── Dockerfile  # Configuración del contenedor
 └── README.md
+
+## 👨‍💻 Author
+
+Proyecto desarrollado como parte de proceso de especialización en ciberseguridad y DevSecOps.
