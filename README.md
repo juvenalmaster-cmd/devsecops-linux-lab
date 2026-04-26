@@ -22,5 +22,12 @@ El objetivo es integrar prácticas de seguridad dentro del ciclo de desarrollo, 
 git clone https://github.com/juvenalmaster-cmd/devsecops-linux-lab.git
 cd devsecops-linux-lab
 
-## 🧪 Security Testing
-...
+
+bandit -r app/
+
+devsecops-linux-lab/
+├── app/        # Código de aplicación
+├── scripts/    # Scripts de automatización
+├── security/   # Prácticas y pruebas de seguridad
+├── Dockerfile  # Configuración del contenedor
+└── README.md
