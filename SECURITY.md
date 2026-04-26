@@ -7,3 +7,4 @@ If you find a vulnerability, please open an issue.
 - Do not upload credentials
 - Use environment variables
 - Apply secure coding practices
+## Update
