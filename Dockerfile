@@ -1,9 +1,9 @@
-FROM ubuntu:22.04
+FROM python:3.11-slim
 
 WORKDIR /app
 
-RUN apt update && apt install -y python3 python3-pip
-RUN pip3 install bandit
+RUN apt update && apt upgrade -y && apt dist-upgrade -y
+RUN pip3 install --upgrade pip setuptools wheel
 
 COPY app/ app/
 COPY security/ security/
