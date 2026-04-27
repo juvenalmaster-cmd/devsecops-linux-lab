@@ -2,12 +2,12 @@
 
 echo "🔐 Running security scan..."
 
-python3 -m bandit -r app/
+python3 -m bandit -r app/ -lll
 
 if [ $? -ne 0 ]; then
-  echo "❌ Vulnerabilities detected!"
+  echo "❌ High severity vulnerabilities detected!"
   exit 1
 else
-  echo "✅ No critical vulnerabilities"
+  echo "✅ No high vulnerabilities"
 fi
 

@@ -16,3 +16,4 @@ COPY security/ security/
 RUN chmod +x security/scan.sh
 
 CMD ["./security/scan.sh"]
+
