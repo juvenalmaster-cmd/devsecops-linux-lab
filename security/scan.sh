@@ -2,20 +2,24 @@
 
 echo "🔐 Running security scan..."
 
-# Ejecutar Bandit y guardar resultado
-output=$(python3 -m bandit -r app/)
+# Ejecutar Bandit en JSON (clave)
+python3 -m bandit -r app/ -f json -o bandit-report.json
 
-echo "$output"
+# Mostrar reporte
+cat bandit-report.json
 
-# Buscar si hay HIGH
-echo "$output" | grep "Severity: High"
+# Buscar HIGH correctamente
+HIGH_COUNT=$(cat bandit-report.json | grep -o '"severity": "HIGH"' | wc -l)
 
-if [ $? -eq 0 ]; then
+echo "High vulnerabilities found: $HIGH_COUNT"
+
+if [ "$HIGH_COUNT" -gt 0 ]; then
   echo "❌ High severity vulnerabilities detected!"
   exit 1
 else
   echo "✅ No high vulnerabilities"
   exit 0
 fi
+
 
 
