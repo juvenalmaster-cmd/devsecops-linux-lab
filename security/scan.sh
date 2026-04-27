@@ -2,7 +2,7 @@
 
 echo "🔐 Running security scan..."
 
-bandit -r app/ -ll
+/usr/local/bin/bandit -r app/
 
 if [ $? -ne 0 ]; then
     echo "❌ Vulnerabilities detected!"
