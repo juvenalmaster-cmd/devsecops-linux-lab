@@ -1,4 +1,5 @@
 FROM ubuntu:22.04
+FROM ubuntu:22.04
 
 WORKDIR /app
 
@@ -10,4 +11,4 @@ COPY security/ security/
 
 RUN chmod +x security/scan.sh
 
-CMD ["./security/scan.sh"]
+CMD ["./security/scan.sh"z
