@@ -1,38 +1,18 @@
-# DevSecOps Linux Lab
+# 🧪 DevSecOps Linux Lab (Fundamentos)
 
-## 📌 Overview
-Este proyecto corresponde a un laboratorio práctico en entorno Linux (WSL2), enfocado en la aplicación de principios de DevSecOps.  
-El objetivo es integrar prácticas de seguridad dentro del ciclo de desarrollo, utilizando herramientas reales y entornos controlados.
+## 🎯 Objetivo
+Construir el entorno base para prácticas DevSecOps.
 
----
-
-## ⚙️ Technologies
-
-- Linux (WSL2)
-- Git
+## 🔧 Contenido
+- Instalación WSL
 - Docker
-- Python
-- Bandit (Se realiza análisis estático de seguridad del código utilizando Bandit
+- Pruebas iniciales
+- Herramientas base
 
----
+## 🔗 Continuación
+Este laboratorio continúa en:
 
-## 🚀 Setup
-
-```bash
-git clone https://github.com/juvenalmaster-cmd/devsecops-linux-lab.git
-cd devsecops-linux-lab
-docker build -t devsecops-lab .
-docker run devsecops-lab
-
-bandit -r app/
-
-devsecops-linux-lab/
-├── app/        # Código de aplicación
-├── scripts/    # Scripts de automatización
-├── security/   # Prácticas y pruebas de seguridad
-├── Dockerfile  # Configuración del contenedor
-└── README.md
-
+👉 devsecops-secure-pipeline
 ## 👨‍💻 Author
 
 Juvenal Muñoz  
