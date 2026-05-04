@@ -9,8 +9,11 @@ Construir el entorno base para prácticas DevSecOps.
 - Pruebas iniciales
 - Herramientas base
 
-## 🔗 Continuación
+## 🚀 Evolución del proyecto
+
 Este laboratorio continúa en:
+
+https://github.com/juvenalmaster-cmd/devsecops-secure-pipeline
 
 👉 devsecops-secure-pipeline
 ## 👨‍💻 Author
