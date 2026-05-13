@@ -36,7 +36,7 @@ Este repositorio representa la capa fundacional del proceso de aprendizaje DevSe
 
 La siguiente etapa continúa en:
 
-[devsecops-secure-pipeline](https://github.com/JuvenalMunozR/devsecops-secure-pipeline?utm_source=chatgpt.com)
+https://github.com/JuvenalMunozR/devsecops-secure-pipeline
 
 Enfocado en:
 
@@ -61,7 +61,7 @@ Ingeniero en Informática enfocado en:
 - Cloud Computing
 
 GitHub:  
-[JuvenalMunozR GitHub Profile](https://github.com/JuvenalMunozR?utm_source=chatgpt.com)
+https://github.com/JuvenalMunozR
 
 ---
 
@@ -74,4 +74,3 @@ Proyecto desarrollado como parte de una ruta de especialización práctica en:
 - Ciberseguridad
 - Automatización
 - Cloud & Security Engineering
-
